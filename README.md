@@ -49,6 +49,9 @@ The available models are:
 	* scrf_rbm_temporal
 	* scrf_crbm
 	* strf
+		
+
+Note that parts of this code are from the GLOC software package (http://vis-www.cs.umass.edu/code/gloc/gloc.zip).  Temporal superpixels are generated from (http://people.csail.mit.edu/jchang7/code/TSP/TSP_2013-06-26.tar.gz).
 
 If you have additional questions, please email me at akae @ cs . umass . edu (ignore spaces).
 
