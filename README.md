@@ -1,5 +1,3 @@
-README
-
 face_segmentation_video
 =======================
 
@@ -13,21 +11,22 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014.
 
 Included in this package:
 
-common/  
+- common/  
 	common set of files used by all models.
-folds/
+- folds/
 	set of training/test/validation files for 5 folds.
-lib/
+- lib/
 	model files used to run code.
-params/
+- params/
 	parameter settings used by the models.
-scripts/
+- scripts/
 	common set of scripts used to run the code.
-utils/
+- utils/
 	common set of "utility" scripts used by all models.
-README.md : this file
+- README.md : this file
 
 Directions
+----------
 
 1) Download the data associated with the paper at:
 
@@ -51,7 +50,8 @@ The available models are:
 	* strf
 		
 
-Note that parts of this code are from the GLOC software package (http://vis-www.cs.umass.edu/code/gloc/gloc.zip).  Temporal superpixels are generated from (http://people.csail.mit.edu/jchang7/code/TSP/TSP_2013-06-26.tar.gz).
+- Note that parts of this code are from the GLOC software package (http://vis-www.cs.umass.edu/code/gloc/gloc.zip).  
+- Temporal superpixels are generated from (http://people.csail.mit.edu/jchang7/code/TSP/TSP_2013-06-26.tar.gz).
 
 If you have additional questions, please email me at akae @ cs . umass . edu (ignore spaces).
 
