@@ -11,30 +11,24 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014.
 
 Included in this package:
 
-- common/  
-	common set of files used by all models.
-- folds/
-	set of training/test/validation files for 5 folds.
-- lib/
-	model files used to run code.
-- params/
-	parameter settings used by the models.
-- scripts/
-	common set of scripts used to run the code.
-- utils/
-	common set of "utility" scripts used by all models.
+- common/ : common set of files used by all models.
+- folds/ : set of training/test/validation files for 5 folds.
+- lib/ : model files used to run code.
+- params/ :	parameter settings used by the models.
+- scripts/ : common set of scripts used to run the code.
+- utils/ : common set of "utility" scripts used by all models.
 - README.md : this file
 
 Directions
 ----------
 
-1) Download the data associated with the paper at:
+1. Download the data associated with the paper at:
 
 http://vis-www.cs.umass.edu/STRF/index.html
 
-2) Edit scripts/startup_directory.m to match your own system.
+2. Edit scripts/startup_directory.m to match your own system.
 
-3) Run drive_models.m with the model of your choice.  This script takes a parameter setting and a model.
+3. Run drive_models.m with the model of your choice.  This script takes a parameter setting and a model.
 For example run
 
 > drive_models('../params/param_test_strf', 'strf') 
@@ -42,12 +36,12 @@ For example run
 in order to test the STRF model.
 
 The available models are:
-	* scrf
-	* scrf_temporal
-	* scrf_rbm
-	* scrf_rbm_temporal
-	* scrf_crbm
-	* strf
+- scrf
+- scrf_temporal
+- scrf_rbm
+- scrf_rbm_temporal
+- scrf_crbm
+- strf
 		
 
 - Note that parts of this code are from the GLOC software package (http://vis-www.cs.umass.edu/code/gloc/gloc.zip).  
