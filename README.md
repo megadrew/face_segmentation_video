@@ -22,12 +22,8 @@ Included in this package:
 Directions
 ----------
 
-1. Download the data associated with the paper at:
-
-http://vis-www.cs.umass.edu/STRF/index.html
-
+1. Download the data associated with the paper at: http://vis-www.cs.umass.edu/STRF/index.html
 2. Edit scripts/startup_directory.m to match your own system.
-
 3. Run drive_models.m with the model of your choice.  This script takes a parameter setting and a model.
 For example run
 
